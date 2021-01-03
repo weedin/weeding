@@ -1,0 +1,185 @@
+body{
+   font-family: MV boli;
+    box-sizing: border-box;
+}
+
+/* star nav*/
+
+/* header*/
+/* .overlayHead{
+    position: absolute; 
+    height:92.1%;
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(117, 105, 105, 0.5);
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    opacity: 1;
+} */
+.textHeD{
+    font-size: 23px;
+    width: 400px;
+    height: 300px;
+margin: auto;
+margin-top: 15%;  
+color: cornsilk;
+}
+.imgHeader{
+  height: 91%;
+    width: 100%;
+}
+.con{
+   
+    width: 100%;
+    position: relative;
+}
+/* bride*/
+
+.bride{
+    margin: auto;
+ width: 500px;
+ height: 300px;
+ padding-top: 20px;
+
+}
+
+/*card*/
+.containerCard{
+   display: flex;
+  flex-wrap: wrap;
+   justify-content: center;
+}
+.card{
+    margin: 10px;
+    width: 350px;
+    height: 650px;
+display: flex;
+box-shadow: 10px 10px 8px 8px gainsboro;
+    /* float: left; */
+}
+.imgCard{
+    width: 200px;
+    height: 200px;
+   justify-content: center;
+   margin-top: 40%;
+}
+.shadw{
+    box-shadow: 10px 10px 8px 8px gainsboro;
+}
+.personAfter{
+    width: 150px;
+}
+/*dont forget*/
+
+.dontForger{
+    margin-top: 10px;
+    background-color:#f5f1fe;
+    height: 300px;
+    margin-top: 20px;
+
+}
+.justf{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.redHEAD{
+color: rgb(172, 87, 87);
+}
+/*weeding event*/
+.conEvent{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.textEve{
+    margin-left: 20px;
+    padding: 50px;
+}
+.imgEv{
+    max-width: 300px;
+    height:500px;
+   
+}
+
+
+/*footer*/
+.contentFOOTER{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.secFooter{
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+}
+.footBck{
+    background-color:#f5f1fe;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+   
+.containerCard{
+    display: block;
+    width: 100%;
+}
+.imgEv{
+    max-width: 260px;
+    height:400px;
+    margin-right: 20px;
+}
+.bride{
+    display: block;
+    margin: auto;
+   
+}
+     }
+     
+     /* Small devices (portrait tablets and large phones, 600px and up) */
+     @media only screen and (min-width: 600px) {
+       .example {background: green;}
+     }
+     
+     /* Medium devices (landscape tablets, 768px and up) */
+     @media only screen and (min-width: 768px) {
+       .example {background: blue;}
+     } 
+     
+     /* Large devices (laptops/desktops, 992px and up) */
+     @media only screen and (min-width: 992px) {
+    
+     } 
+     
+     /* Extra large devices (large laptops and desktops, 1200px and up) */
+     @media only screen and (min-width: 1200px) {
+       .example {background: pink;}
+     }
+   
+   
